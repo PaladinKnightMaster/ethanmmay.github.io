@@ -32,7 +32,7 @@
       <div class="col justify-content-center">
         <div class="card bg-mint p-3">
           <div class="card-img-top shadow">
-            <img src="./assets/prompetition_logo.png" alt="Prompetition Logo" class="rounded img-fluid">
+            <img src="https://raw.githubusercontent.com/ethanmmay/ethanmmay.github.io/main/src/assets/keepr_logo.PNG" alt="Prompetition Logo" class="rounded img-fluid">
           </div>
           <div class="bg-light mt-3 p-3 rounded shadow">
             <h5 class="text-secondary">A app that uses a masonry layout to display user posts, along with a vault system for keeping track of categories with public profile pages.</h5>
