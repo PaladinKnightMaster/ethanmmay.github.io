@@ -204,11 +204,11 @@ main {
 }
 
 .start-mobile {
-    justify-content: start !important;
+    justify-content: flex-start !important;
 }
 
 .end-mobile {
-    justify-content: end !important;
+    justify-content: flex-end !important;
 }
 
 @media (max-width: 800px) {
