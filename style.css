@@ -35,7 +35,7 @@ a:hover {
     margin-right: 0;
 }
 
-.col {
+.col-sm {
     display: flex;
     margin-bottom: 3vh;
 }
@@ -203,8 +203,19 @@ main {
     }
 }
 
+.start-mobile {
+    justify-content: start !important;
+}
+
+.end-mobile {
+    justify-content: end !important;
+}
+
 @media (max-width: 800px) {
     .editorial {
-        display: none;
+        display: none;  
+    }
+    .start-mobile, .end-mobile {
+        justify-content: center !important;
     }
 }
