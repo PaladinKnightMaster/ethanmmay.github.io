@@ -119,6 +119,7 @@ main {
     height: 100vh;
     min-height: 100vh;
     max-height: 100vh;
+    overflow:hidden;
 }
 
 .editorial {
@@ -213,7 +214,7 @@ main {
     justify-content: flex-end !important;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 850px) {
     .editorial {
         display: none;  
     }
@@ -222,5 +223,11 @@ main {
     }
     .separator {
         display: none;
+    }
+}
+
+@media (max-height: 600px) {
+    .text-success {
+        display: none !important;
     }
 }
