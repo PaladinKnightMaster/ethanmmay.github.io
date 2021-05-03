@@ -30,6 +30,10 @@ a:hover {
     text-decoration: none !important;
 }
 
+.pointer {
+    cursor: pointer;
+}
+
 .max287 {
     max-width: 287px;
     margin-right: 0;
@@ -119,7 +123,6 @@ main {
     height: 100vh;
     min-height: 100vh;
     max-height: 100vh;
-    overflow:hidden;
 }
 
 .editorial {
