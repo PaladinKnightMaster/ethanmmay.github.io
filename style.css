@@ -23,7 +23,7 @@
 
 .nav-mint {
     background-color: #00DB8C;
-    height: 4.5rem;
+    height: 4rem;
 }
 
 .card {
@@ -65,7 +65,7 @@ a:hover {
 .text-cream {
     color: #f4f4f4;
     font-family: 'Poppins', sans-serif;
-    margin: 1rem;
+    margin: 0.75rem;
     filter: drop-shadow(1px 1px 1px black);
 }
 
@@ -84,10 +84,15 @@ a:hover {
 }
 
 .projects-link {
-    background-color: yellow;
+    background-color: #BDFF00;
     padding: 1rem 1.5rem;
     max-width: 16rem;
     font-size: 16pt;
+    color: black;
+}
+
+.projects-link:hover {
+    background-color: #82b100;
 }
 
 .life-goal {
