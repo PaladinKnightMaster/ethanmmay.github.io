@@ -21,6 +21,21 @@
     background: linear-gradient(125deg, rgba(255, 0, 254, 1) 18%, rgba(112, 1, 223, 1) 70%);
 }
 
+.bg-green {
+    background: rgb(7, 216, 0);
+    background: linear-gradient(125deg, rgba(7, 216, 0, 1) 18%, rgb(57, 156, 0) 70%);
+}
+
+.bg-navy {
+    background: #66a2ba;
+    background: linear-gradient(125deg, rgb(102, 162, 186) 18%, rgb(39, 73, 92) 70%);
+}
+
+.bg-peach {
+    background: #c89e48;
+    background: linear-gradient(125deg, rgb(200, 158, 72) 18%, rgb(155, 108, 14) 70%);
+}
+
 .nav-mint {
     background-color: #00DB8C;
     height: 4rem;
@@ -75,12 +90,25 @@ a:hover {
     font-weight: bold;
 }
 
+.font-readex {
+    font-family: 'Readex Pro', sans-serif;
+    font-weight: bold;
+}
+
+.img-contain {
+    max-width: 287.5px;
+}
+
 .text-cyan {
     color: #00FFF0;
 }
 
 .text-pink {
     color: #FF40D5;
+}
+
+.text-jade {
+    color: #2a770b;
 }
 
 .projects-link {
@@ -98,6 +126,13 @@ a:hover {
 .life-goal {
     font-size: 44pt;
     text-align: center;
+}
+
+.large-underline {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    border-bottom: 2px solid white;
+    padding: 0.5rem 0.5rem;
 }
 
 .img-pfp {
