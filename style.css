@@ -23,7 +23,7 @@
 
 .nav-mint {
     background-color: #00DB8C;
-    min-height: 4rem;
+    height: 4.5rem;
 }
 
 .card {
@@ -67,6 +67,32 @@ a:hover {
     font-family: 'Poppins', sans-serif;
     margin: 1rem;
     filter: drop-shadow(1px 1px 1px black);
+}
+
+.font-kanit {
+    font-family: 'Kanit', sans-serif;
+    margin: 1rem;
+    font-weight: bold;
+}
+
+.text-cyan {
+    color: #00FFF0;
+}
+
+.text-pink {
+    color: #FF40D5;
+}
+
+.projects-link {
+    background-color: yellow;
+    padding: 1rem 1.5rem;
+    max-width: 16rem;
+    font-size: 16pt;
+}
+
+.life-goal {
+    font-size: 44pt;
+    text-align: center;
 }
 
 .img-pfp {
