@@ -123,6 +123,18 @@ a:hover {
     background-color: #82b100;
 }
 
+.home-link {
+    background-color: #FF40D5;
+    padding: 1rem 1.5rem;
+    max-width: 16rem;
+    font-size: 16pt;
+    color: black;
+}
+
+.home-link:hover {
+    background-color: #b1108e;
+}
+
 .life-goal {
     font-size: 44pt;
     text-align: center;
