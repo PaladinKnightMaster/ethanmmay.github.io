@@ -46,6 +46,10 @@
     height: min-content;
 }
 
+a {
+    color: rgb(51, 51, 51) !important;
+}
+
 a:hover {
     text-decoration: none !important;
 }
