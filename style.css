@@ -23,17 +23,17 @@
 
 .bg-green {
     background: rgb(7, 216, 0);
-    background: linear-gradient(125deg, rgba(7, 216, 0, 1) 18%, rgb(57, 156, 0) 70%);
+    background: linear-gradient(125deg, rgba(7, 216, 0, 1) 18%, rgb(44, 119, 0) 70%);
 }
 
 .bg-navy {
     background: #66a2ba;
-    background: linear-gradient(125deg, rgb(102, 162, 186) 18%, rgb(39, 73, 92) 70%);
+    background: linear-gradient(125deg, rgb(102, 162, 186) 18%, rgb(46, 98, 128) 70%);
 }
 
 .bg-peach {
     background: #c89e48;
-    background: linear-gradient(125deg, rgb(200, 158, 72) 18%, rgb(155, 108, 14) 70%);
+    background: linear-gradient(125deg, rgb(202, 174, 113) 18%, rgb(200, 158, 72) 70%);
 }
 
 .nav-mint {
@@ -233,34 +233,22 @@ main {
 
 .parallax1>use {
     animation: move-forever1 10s linear infinite;
-
-    &:nth-child(1) {
-        animation-delay: -2s;
-    }
+    animation-delay: -2s;
 }
 
-.parallax2>use {
+.parallax2>use:nth-child(1) {
     animation: move-forever2 8s linear infinite;
-
-    &:nth-child(1) {
-        animation-delay: -2s;
-    }
+    animation-delay: -2s;
 }
 
-.parallax3>use {
+.parallax3>use:nth-child(1) {
     animation: move-forever3 6s linear infinite;
-
-    &:nth-child(1) {
-        animation-delay: -2s;
-    }
+    animation-delay: -2s;
 }
 
-.parallax4>use {
+.parallax4>use:nth-child(1) {
     animation: move-forever4 4s linear infinite;
-
-    &:nth-child(1) {
-        animation-delay: -2s;
-    }
+    animation-delay: -2s;
 }
 
 @keyframes move-forever1 {
